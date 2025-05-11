@@ -398,5 +398,45 @@ export const questions = [
         "D. netbios-name"
       ],
       correct: 1
-    }
+    },
+    {
+      question: "Quel est l’objectif principal d’une attaque DHCP spoofing ?",
+      options: [
+       " A. Accélérer la distribution d’adresses IP",
+        " B. Fournir une redondance au réseau",
+        " C. Usurper un serveur DHCP légitime pour contrôler ou espionner le trafic réseau",
+         " D. Bloquer l’accès à Internet pour tous les utilisateurs"
+      ],
+      correct: 2
+    },
+    {
+      question: "Dans une attaque DHCP spoofing, que fournit généralement le faux serveur DHCP ?",
+      options: [
+       "  A. Une adresse IP non valide uniquement",
+        " B.Une configuration réseau complète, souvent malveillante",
+        " C.Un antivirus à installer",
+         " D. Une mise à jour du système d’exploitation"
+      ],
+      correct: 1
+    },
+    {
+      question: "Quel est le rôle du mécanisme DHCP snooping ?",
+      options: [
+       "  A. Accélérer la réponse DHCP",
+        " B.Empêcher les clients de recevoir des réponses DHCP",
+        " C.Bloquer les serveurs DHCP non autorisés",
+         " D. Attribuer automatiquement les DNS"
+      ],
+      correct: 2
+    },
+    {
+      question: "Quelle technique est souvent utilisée avec DHCP spoofing pour intercepter les communications ?",
+      options: [
+       "  A.  SQL Injection",
+        "  B. Man-in-the-Middle ",
+        " C. Phishing",
+         "  D. Brute Force"
+      ],
+      correct: 1
+    },
   ];
