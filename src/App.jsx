@@ -50,7 +50,7 @@ function App() {
           <div className="text-center">
             <h2 className="text-4xl font-bold text-green-600 mb-6">Résultat</h2>
             <p className="text-2xl font-semibold text-gray-800">
-              Votre score : <span className="text-green-700">{getScore()} / {questions.length * 0.5}</span>
+              Votre score : <span className="text-green-700">{getScore()} / {questions.length * 0.25}</span>
             </p>
           </div>
         )}
